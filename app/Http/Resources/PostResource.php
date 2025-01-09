@@ -16,6 +16,10 @@ class PostResource extends JsonResource
     {
         return [
             'id' => $this->id,
+<<<<<<< HEAD
+=======
+            'nome' => $this->nome,          // <--- NOVO
+>>>>>>> 8fe9dbb (Primeiro commit)
             'title' => $this->title,
             'content' => $this->content,
             'created_at' => $this->created_at,

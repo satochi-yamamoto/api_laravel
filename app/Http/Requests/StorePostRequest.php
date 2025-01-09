@@ -22,6 +22,10 @@ class StorePostRequest extends FormRequest
     public function rules(): array
     {
         return [
+<<<<<<< HEAD
+=======
+            'nome' => ['required', 'max:70'],   // <--- NOVA REGRA
+>>>>>>> 8fe9dbb (Primeiro commit)
             'title' => ['required', 'max:70'],
             'content' => ['required']
         ];

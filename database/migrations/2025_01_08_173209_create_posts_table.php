@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
+<<<<<<< HEAD
+=======
+            $table->string('nome');   // <--- NOVO CAMPO
+>>>>>>> 8fe9dbb (Primeiro commit)
             $table->string('title');
             $table->text('content');
             $table->timestamps();
